@@ -22,7 +22,13 @@ Limitations to be aware of when using functions:
 
 - executing a workflow on a trigger; the workflow is best suited for a "code-first" approach rather than "design-first" (e.g. using a tool like Azure Logic Apps)
 
-## Sample project
+## Sample projects and how-tos
+
+There are multiple ways to create Azure functions:
+
+1. Create the function directly in the Azure portal; this will work only for supported languages like JavaScript, PowerShell, Python, and C# Script (.csx)
+2. Create the function in your favorite IDE (e.g. Visual Studio Code) and publish it to Azure
+3. Create the function using the Azure Core tools. Here is a Microsoft walkthrough on how to do this: [https://learn.microsoft.com/en-us/training/modules/develop-test-deploy-azure-functions-with-core-tools/]
 
 ## Useful links and resources
 
