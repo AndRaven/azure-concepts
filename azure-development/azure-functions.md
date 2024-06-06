@@ -30,6 +30,18 @@ There are multiple ways to create Azure functions:
 2. Create the function in your favorite IDE (e.g. Visual Studio Code) and publish it to Azure
 3. Create the function using the Azure Core tools. Here is a Microsoft walkthrough on how to do this: [https://learn.microsoft.com/en-us/training/modules/develop-test-deploy-azure-functions-with-core-tools/]
 
+### Process of linking an Azure function with a GitHub repository
+
+Azure functions can be setup to receive payloads from a GitHub webhook. The webhook gets triggered by specific events in the configured GitHub repository.
+
+### Process of publishing an Azure function from the CLI with Azure Functions Core tools
+
+### Process of creating and publishing a function from Visual Studio
+
+### Procees of creating and publishing a function from VS Code
+
 ## Useful links and resources
 
 Microsoft Azure Functions implementation: [https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/]
+
+Azure functions in Azure CLI : [https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-csharp?tabs=macos%2Cazure-cli]
